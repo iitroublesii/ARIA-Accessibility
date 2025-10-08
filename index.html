@@ -9,16 +9,18 @@
 
 <body>
 
-<!-- First Heading -->
+    <!-- First Heading -->
     <h1>Understanding ARIA-Accessibility</h1>
 
-<!-- Second Heading -->
+    <!-- Second Heading -->
     <h2>What is ARIA?</h2>
 
-    <p>ARIA stands for <em><u>Accessible Rich Internet Applications.</em></u>
-        ARIA is a set of attributes that make everything more accessible for people with disabilities. </p>
-
-    <h2>WHy ARIA-Accessibility Matters</h2>
+    <p>
+    ARIA stands for <em><u>Accessible Rich Internet Applications</u></em>.
+    ARIA is a set of attributes that make web content more accessible for people with disabilities.
+  </p>
+  
+    <h2>Why ARIA-Accessibility Matters</h2>
 
     <p>ARIA-Accessibility makes sure that everyone even those that have issues with hearing, eyesight or motor
         impairments can use the web easier. </p>
@@ -36,20 +38,42 @@
             <input id="email" type="email" placeholder="yourname@example.com">
         </p>
 
-        <!-- Button -->
+        <!-- Button with ARIA -->
         <p>
             <button aria-label="Submit Form">Submit</button>
         </p>
+
         <!-- Link with a button role -->
-    <p>
-      <a href=https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
-         role="button" 
-         aria-label="Learn more about ARIA">
-         Learn More About ARIA
-         </a></p>
+        <p>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label
+                role="button" aria-label="Learn more about ARIA">
+                Learn More About ARIA-Accessibility
+            </a>
+        </p>
+
     </section>
 
-    <section></section>
+    <section>
+        <p>
+            For more information about accessibility, email us at
+            <a href="mailto:aria-accessibility@example.com">aria-accessibility@example.com</a>.
+        </p>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>We value your feedback on this site.</p>
+    </section>
+
+      <!-- Navigation with ARIA -->
+  <nav role="navigation" aria-label="Main Navigation">
+    <ul>
+      <li><a href="#aria-info">Examples</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+      <li><a href="mailto:aria-accessibility@example.com">Contact</a></li>
+    </ul>
+  </nav>
+
 </body>
 
 </html>
